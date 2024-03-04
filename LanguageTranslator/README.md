@@ -32,11 +32,17 @@ You can specify the source language (from_language) and the target language (to_
 By default, the source language is set to English and the target language is set to French. You can change these values according to your preferences.
 
 Dependencies
+
 playsound: For playing audio files.
+
 googletrans: For translating text using Google Translate.
+
 gtts: For converting text to speech using Google Text-to-Speech.
+
 speech_recognition: For recognizing speech input.
+
 google_trans_new: For translation using Google Translate API.
 
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
