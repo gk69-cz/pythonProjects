@@ -1,16 +1,17 @@
 
 Speech Translator Application
+
 This is a simple Python application that allows you to translate spoken text from one language to another using speech recognition and translation APIs.
 
 Features
 Speech recognition: The application listens to your voice input and converts it into text using the Google Speech Recognition API.
 Language translation: It translates the recognized text from one language to another using the Google Translate API.
 Text-to-speech: It converts the translated text into speech using the gTTS (Google Text-to-Speech) library.
+
 Installation
+
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/your_username/speech-translator.git
 Install dependencies:
 
