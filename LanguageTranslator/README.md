@@ -1,5 +1,5 @@
 
-Speech Translator Application
+# Speech Translator Application
 
 This is a simple Python application that allows you to translate spoken text from one language to another using speech recognition and translation APIs.
 
@@ -8,7 +8,7 @@ Speech recognition: The application listens to your voice input and converts it 
 Language translation: It translates the recognized text from one language to another using the Google Translate API.
 Text-to-speech: It converts the translated text into speech using the gTTS (Google Text-to-Speech) library.
 
-Installation
+# Installation
 
 Clone the repository:
 
@@ -26,12 +26,12 @@ Speak into the microphone when prompted. The application will attempt to recogni
 
 The translated text will be converted into speech and saved as voice.mp3 in the current directory.
 
-Configuration
+# Configuration
 
 You can specify the source language (from_language) and the target language (to_language) in the speech_translator.py file.
 By default, the source language is set to English and the target language is set to French. You can change these values according to your preferences.
 
-Dependencies
+# Dependencies
 
 playsound: For playing audio files.
 
@@ -43,6 +43,6 @@ speech_recognition: For recognizing speech input.
 
 google_trans_new: For translation using Google Translate API.
 
-License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
