@@ -24,7 +24,7 @@ with sr.Microphone() as source:
         print("error")
     
     from_language = 'english'
-    to_language='french'
+    to_language='malayalam'
         
     translator= Translator(from_lang=from_language,to_lang=to_language)
     translation = translator.translate(speech_Text)
